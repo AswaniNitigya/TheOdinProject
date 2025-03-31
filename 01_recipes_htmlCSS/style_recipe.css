@@ -1,0 +1,15 @@
+* {
+    background-color:rgb(211, 226, 255);
+   
+}
+
+h2 {
+    color:red
+}
+
+ul, ol {
+    list-style-position: inside;  /* Moves bullets/numbers inside the list item */
+}
+#maincontent{
+margin-left: 10%;
+}
