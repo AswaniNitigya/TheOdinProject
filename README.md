@@ -14,4 +14,4 @@
 
 
 ### 📌 About This Repository  
-This repository contains projects and exercises from **The Odin Project** learning , currently focusing on HTML and CSS fundamentals.
+This repository contains learning from **The Odin Project**
