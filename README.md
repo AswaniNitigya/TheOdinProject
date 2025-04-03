@@ -9,6 +9,9 @@
 ### 🔹 First Project using HTML CSS
 [📌 View Here](https://aswaninitigya.github.io/TheOdinProject/02_project_HTML_CSS_foundation/)  
 
+### 🔹 Basic Rock paper scissor in console JS
+[📌 View Here](https://aswaninitigya.github.io/TheOdinProject/05_rockPaperScissor.html)  
+
 
 ### 📌 About This Repository  
 This repository contains projects and exercises from **The Odin Project** learning , currently focusing on HTML and CSS fundamentals.
