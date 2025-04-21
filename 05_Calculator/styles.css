@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.h1{
+    font-weight: 900;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.mainHolder{
+    margin-top: 30px;
+    background-color: rgb(200, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.displayCalculation {
+    background-color: rgb(225, 255, 181);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: right;
+    height: 50px;
+}
+.numberButtons,
+.funtionalButtons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
+    
+}
+
+.funtionalButtons{margin-top: 10px;}
+
+div button{
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 50px;
+}
+.execute button{
+    margin-top: 10px;
+    width: 100px;
+} 
+.execute{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* additional style */
+div button {
+    border-radius: 20px;
+    padding: 10px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+div button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
+div button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
