@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h4>Rock paper scissor</h4>
+    <div class="emoji-holder">
+    <button onclick="rock(); judge();"><img src="images/rock.png" class="game-images"></button>
+    <button onclick="paper(); judge();"><img src="images/paper.png" class="game-images"></button>
+    <button onclick="scissor(); judge();"><img src="images/scissor.png" class="game-images"></button>
+    </div>
+
+    <div class="other-holder">
+    <button onclick="resetScore()">Reset score</button>
+    <button onclick="showResult()">Show Result</button>
+    <button onclick="autoPlayClick()">Auto play</button>
+    
+    </div>
+
+    <div class="result">
+        <p class="js-result"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
