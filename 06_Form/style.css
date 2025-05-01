@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex; 
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.left {
+    background-image: url(images/background.jpg);
+    width: 35vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 5vw;
+}
+
+.holder{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    width: 35vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+   bottom: 150px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100vw ;
+} 
+
+.first,
+.third{
+    background-color: rgb(237, 237, 237);
+}
+
+.first{
+    height: 35vh ;
+    font-family: "Alkatra";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+
+.second{
+    height: 40vh;
+   
+  
+}
+#letsText{
+    margin-left: 30px;
+    font-family: "Alkatra";
+    font-size: 1.7rem;
+}
+.formholder{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+input{
+    width:150px;
+    border: 1px solid #E5E7EB;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(93, 93, 93);
+}
+input:focus{
+    border-color: blue;
+}
+input:invalid{
+    border-color: red;
+}
+label {
+    text-transform: uppercase;
+    color:rgb(86, 86, 86);
+    font-size: 0.7rem;
+}
+#pNOTmatch{
+    color: red;
+    font-size: 0.9rem;
+}
+
+
+.third{
+    height: 25vh;
+}
+#finalbtn{
+    background-color: #596D48;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 0px ;
+    padding: 10px 30px;
+    font-weight: 900;
+}
+
+#alreadyLOGIN{
+    margin-left: 30px;
+}
+#Login{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+#odin{
+    font-size: 2.1rem;
+    margin-left: 10px;
+}
